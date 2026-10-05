@@ -4,7 +4,7 @@ import axios from "axios";
 
 /* ------------------------------------------------------------------ */
 /*  Real backend connection                                           */
-/*  Base URL: http://localhost:5000/api                               */
+/*  Base URL: configured through VITE_API_URL                         */
 /*  Endpoints: /api/products (GET, PUT /:id, DELETE /:id)             */
 /*                                                                     */
 /*  This replaces:                                                    */

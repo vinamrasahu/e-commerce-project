@@ -7,7 +7,7 @@ import { deleteSlider } from "../../services/sliderService";
 import { getSliderById } from "../../services/sliderService";
 /* ------------------------------------------------------------------ */
 /*  Real backend connection                                            */
-/*  Base URL: http://localhost:5000/api                                */
+/*  Base URL: configured through VITE_API_URL                           */
 /*  Endpoints: /api/sliders (GET, POST), /api/sliders/:id (DELETE)     */
 /*  Image upload: /api/upload (same pattern as AddProductPanel)        */
 /*                                                                      */
