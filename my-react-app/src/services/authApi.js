@@ -1,0 +1,13 @@
+import API from "./axios";
+
+export const registerUser = (data) =>
+  API.post("/auth/register", data);
+
+export const loginUser = (data) =>
+  API.post("/auth/login", data);
+
+export const sendOtp = (data) =>
+  API.post("/auth/send-otp", data);
+
+export const resetPassword = (data) =>
+  API.post("/auth/reset-password", data);

@@ -1,0 +1,1 @@
+export const getAllSessions = () => axios.get("/admin/sessions");
